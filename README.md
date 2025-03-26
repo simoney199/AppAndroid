@@ -14,11 +14,8 @@ Các tính năng chính:
 - Xem báo cáo tài chính bằng biểu đồ."
 
 # Thành viên nhóm:
-Hoàng Minh Đức - 21520193 
-
-Nguyễn Thị Kiều Trang - 21520489
-
-Võ Sỹ Minh - 21521146
-
-Trần Phúc Thịnh - 21521475
+- Hoàng Minh Đức - 21520193 
+- Nguyễn Thị Kiều Trang - 21520489
+- Võ Sỹ Minh - 21521146
+- Trần Phúc Thịnh - 21521475
 
