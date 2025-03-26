@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDEDE"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/titleEditGoal"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="@color/green"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/closeButton"
+            android:src="@drawable/close"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Sửa mục tiêu"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/check"
+            android:id="@+id/saveButton"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"/>
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/goalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@id/titleEditGoal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/category_shape"
+        android:layout_margin="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/goalImage"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:src="@drawable/food"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@id/goalImage"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/inputGoalName"
+                android:layout_width="273dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_edt"
+                android:hint="Tên mục tiêu"
+                android:textSize="15sp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingStart="12dp"
+                app:layout_constraintLeft_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="18dp"/>
+
+            <EditText
+                android:id="@+id/inputGoalNumber"
+                android:layout_width="273dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/inputGoalName"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/custom_edt"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="Số tiền mục tiêu"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/inputGoalName" />
+
+            <ImageView
+                android:id="@+id/dateIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/inputGoalNumber"
+                android:src="@drawable/date"
+                app:layout_constraintTop_toBottomOf="@+id/inputGoalNumber"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="21dp"
+                android:layout_marginLeft="18dp"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/inputGoalNumber"
+                android:layout_toEndOf="@+id/dateIcon"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="5-10-2023"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toRightOf="@id/dateIcon"
+                android:layout_marginTop="26dp"
+                android:layout_marginLeft="18dp"/>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/devider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/goalInfo"
+        android:background="#BFBFBF"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintTop_toBottomOf="@id/devider"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn một biểu tượng"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="17dp"/>
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:numColumns="5"
+            android:verticalSpacing="15dp"
+            android:id="@+id/gridview"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="50dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
