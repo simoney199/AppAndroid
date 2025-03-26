@@ -21,4 +21,5 @@
     <color name="input_background">#F4F4F4</color>
     <color name="border_color">#A9A8AA</color>
     <color name="gainsboro">#DCDCDC</color>
+    <color name="brand_primary">#1B74E4</color>
 </resources>
