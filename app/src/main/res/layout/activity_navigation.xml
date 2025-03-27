@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/add"
             app:layout_anchor="@id/bottomAppBar"
-            app:backgroundTint="#03A700"
+            app:backgroundTint="@color/brand_primary"
             app:maxImageSize="30dp"
             app:borderWidth="0dp"
             android:id="@+id/addNewTransaction"/>

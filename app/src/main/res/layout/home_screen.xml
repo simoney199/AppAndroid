@@ -112,7 +112,7 @@
                 android:layout_marginRight="38dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="Xem tất cả"
-                android:textColor="@color/green"
+                android:textColor="@color/brand_primary"
                 android:textSize="12sp"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/balanceInformation" />
@@ -169,7 +169,7 @@
                 android:layout_marginRight="38dp"
                 android:fontFamily="@font/montserrat_medium"
                 android:text="Xem tất cả"
-                android:textColor="@color/green"
+                android:textColor="@color/brand_primary"
                 android:textSize="12sp"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/recentTrasactionBox" />
@@ -202,8 +202,8 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tabTextColor="@color/green"
-                    app:tabIndicatorColor="@color/green"
+                    app:tabTextColor="@color/brand_primary"
+                    app:tabIndicatorColor="@color/brand_primary"
                     >
 
                 </com.google.android.material.tabs.TabLayout>
