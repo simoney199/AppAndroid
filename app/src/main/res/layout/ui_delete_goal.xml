@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="XÓA MỤC TIÊU"
             android:fontFamily="@font/montserrat_bold"
-            android:textColor="@color/green"
+            android:textColor="@color/brand_primary"
             android:textSize="16sp"
             android:textStyle="bold" />
 
