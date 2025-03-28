@@ -13,8 +13,8 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:background="@color/gray"
-            app:tabTextColor="@color/green"
-            app:tabIndicatorColor="@color/green">
+            app:tabTextColor="@color/brand_primary"
+            app:tabIndicatorColor="@color/brand_primary">
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

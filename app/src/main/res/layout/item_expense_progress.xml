@@ -49,7 +49,7 @@
                 android:fontFamily="@font/montserrat_bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="October - 2023"
+                android:text="March - 2025"
                 android:textColor="@color/black"/>
 
         </LinearLayout>
@@ -84,7 +84,7 @@
                 android:id="@+id/expenseLimit"
                 android:textStyle="bold"
                 android:textSize="16sp"
-                android:textColor="@color/green"
+                android:textColor="@color/brand_primary"
                 android:fontFamily="@font/montserrat_semibold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
