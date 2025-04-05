@@ -39,13 +39,14 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
+            android:contentDescription="add_transaction"
             android:layout_height="wrap_content"
-            android:src="@drawable/add"
+            android:src="@drawable/add_transaction"
             app:layout_anchor="@id/bottomAppBar"
             app:backgroundTint="@color/brand_primary"
             app:maxImageSize="30dp"
             app:borderWidth="0dp"
-            android:id="@+id/addNewTransaction"/>
+            android:id="@+id/addNewTransaction" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
